@@ -1,0 +1,40 @@
+/* Dispositivos móviles en posición vertical (portrait) */
+@media (max-width: 320px) and (orientation: portrait) {
+    .video-iframe {
+        transform: translate(6%, 190%);
+        width: 74%;
+        height: 21vh;
+    }
+}
+
+/* Dispositivos móviles en posición horizontal (landscape) */
+@media (min-width: 480px) and (max-width: 1024px) and (orientation: landscape) {
+    .body{
+        background-image: url(/assets/images/Fondo-movil-4-GCE.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .video-iframe {
+        transform: translate(35%, 25%);
+        width: 52.3%;
+        height: 66.5vh;
+    }
+}
+
+/* Tablets */
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    .video-iframe {
+        width: 80%;
+        height: 45vh; 
+    }
+} */
+
+/* Laptops o PC */
+/* @media (min-width: 1025px) {
+    .video-iframe {
+        width: 70%;
+        height: 40vh;
+    }
+} */
