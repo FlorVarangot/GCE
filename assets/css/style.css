@@ -26,6 +26,7 @@
 }
 
 .video-iframe { 
+    
     position: absolute;
     border: none;
     border-radius: 8px;
@@ -33,6 +34,11 @@
 }
 
 .container-tv{
+    display: flex;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: black;
+
     position: relative; 
     width: 100%; 
     height: 100vh;
