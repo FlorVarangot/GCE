@@ -8,7 +8,6 @@
     }
 }
 
-
 /* Dispositivos móviles en posición horizontal (landscape) */
 @media (min-width: 320px) and (orientation: landscape) {
     .body{
@@ -21,7 +20,6 @@
         top: 13.6vh;
         left:-5vw;
     }
-
 }
 
 /* Tablets */
