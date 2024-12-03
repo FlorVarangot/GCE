@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #eee;
+    --secondary-color: #ddd;
+    --third-color: #ff6699;
+    --back-mobile: #fdc82a;
+    --back-color: linear-gradient(135deg, #fdc82a, #ff6699);
+    --font-gral: 3vh;
+    --font-dos: 2.5vh;
+    --font-mini: 1vh;
+    --titulo: 8vh;
+}
+
+.body {
+    /* box-sizing: border-box; */
+    margin:0;
+    padding:0;
+
+    background-image: url(/assets/images/Fondo-movil-3-GCE.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Permanent Marker', sans-serif;
+    /* overflow-x: hidden; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-tv{
+    position: relative;
+    top: 39vh;
+    left:-8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px dashed rgb(246, 255, 0);
+}
+
+.video-iframe { 
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
